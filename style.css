@@ -34,6 +34,12 @@ ul{
 	list-style:none;
 }
 
+nav ul 
+{
+	text-align: center;
+	float: center;
+}
+
 .menu-item{ 
 	display: inline;
 	border-right: solid;
@@ -123,7 +129,11 @@ aside{
 	{
 	
 		width:100%;
-	}	
+	}
+	.menu-item
+	{
+		border-right: none;
+	}
 }
 
 footer {
@@ -132,4 +142,9 @@ footer {
     clear:both;
     text-align:center;
     padding:5px; 
+}
+footer ul li{
+display: inline-block;
+cursor: pointer;
+width: 100px;
 }
